@@ -4,7 +4,7 @@ A comprehensive collection of running routes in Cambridge, MA, brought to you by
 
 ## 🌐 Live Site
 
-Visit the live site at: [https://vedanglad.com/cambridge_running](https://vedanglad.com/cambridge_running)
+Visit the live site at: [https://vdlad.github.io/cambridge_running](https://vdlad.github.io/cambridge_running)
 
 ## 📍 Available Routes
 
