@@ -1,0 +1,100 @@
+---
+layout: default
+title: Cambridge Running Routes
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+        .routes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .route-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            transition: box-shadow 0.3s ease;
+        }
+        .route-card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .route-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #0366d6;
+            text-decoration: none;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .route-title:hover {
+            text-decoration: underline;
+        }
+        .contribution-info {
+            background-color: #e6f3ff;
+            border-left: 4px solid #0366d6;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Cambridge Running Routes</h1>
+        <p>Running routes of Cambridge brought to you by MIT Cross Country Alums</p>
+    </div>
+
+    <div class="contribution-info">
+        <h3>🏃‍♂️ Contribute New Routes</h3>
+        <p>Help us build the most comprehensive collection of Cambridge running routes! Submit a pull request with your favorite routes. See our <a href="https://github.com/vdlad/cambridge_running#contributing">contribution guidelines</a> for details.</p>
+    </div>
+
+    <div class="routes-grid">
+        <!-- Featured Routes -->
+        <div class="route-card">
+            <a href="routes_cambridge.md.html" class="route-title">Main Cambridge Routes</a>
+            <p>The primary collection of popular running routes around Cambridge, including scenic riverside paths and historic neighborhoods. Features Charles River Loop, Harvard Square Historic Loop, and Fresh Pond Reservoir Circuit.</p>
+        </div>
+        
+        <div class="route-card">
+            <a href="routes_porter_square.md.html" class="route-title">Porter Square Area Routes</a>
+            <p>Discover running routes around Porter Square, featuring diverse neighborhoods, parks, and connections to regional trails. Perfect for exploring North Cambridge and Somerville.</p>
+        </div>
+        
+        <!-- Contribution placeholder -->
+        <div class="route-card" style="opacity: 0.6; border-style: dashed;">
+            <div class="route-title" style="color: #666;">Your Route Collection Here</div>
+            <p style="color: #666;">Submit a PR to add your favorite Cambridge running routes! We're looking for neighborhood-specific collections, training routes, and seasonal paths.</p>
+        </div>
+    </div>
+
+    <script>
+        // This script will be enhanced to dynamically load route files
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Cambridge Running Routes loaded');
+        });
+    </script>
+</body>
+</html>

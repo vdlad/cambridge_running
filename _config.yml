@@ -1,0 +1,23 @@
+# GitHub Pages configuration for Cambridge Running Routes
+title: Cambridge Running Routes
+description: Running routes of Cambridge brought to you by MIT Cross Country Alums
+theme: minima
+url: https://vdlad.github.io
+baseurl: /cambridge_running
+
+# Enable markdown processing
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Include .md.html files in processing
+include:
+  - "*.md.html"
+
+# Exclude unnecessary files
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore
