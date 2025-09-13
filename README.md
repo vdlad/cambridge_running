@@ -8,10 +8,7 @@ Visit the live site at: [https://vdlad.github.io/cambridge_running](https://vdla
 
 ## 📍 Available Routes
 
-- **Main Cambridge Routes** (`routes_cambridge.md.html`) - Our flagship collection featuring:
-  - Charles River Loop (5.2 miles)
-  - Harvard Square Historic Loop (3.8 miles)
-  - Fresh Pond Reservoir Circuit (2.5 miles)
+- **Main Cambridge Routes** (`routes_cambridge.md.html`)
 
 ## 🤝 Contributing
 
